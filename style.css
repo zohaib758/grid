@@ -1,0 +1,154 @@
+*{
+marg 
+paddi 
+}
+
+
+
+nav{
+
+    height: auto;
+    width: 100%;
+    display: grid;
+grid-template-columns:30% 70%;
+grid-column-gap: 1em;
+z-index: 1;
+/* grid-row-gap: 1em; */
+
+
+}
+
+
+#logo{
+
+
+    padding: 10%;
+    border: 2px;
+    border-style: dotted;
+
+
+
+}
+
+#menu{
+/* background-color: orange; */
+padding-left: 70%;
+border: 2px;
+border-style: dotted;
+
+}
+
+#menu ul li{
+
+list-style: none;
+
+
+}
+#menu ul li a{
+
+    text-decoration: none;
+    
+}
+
+#what{
+    height: 400px;
+width: auto;
+display: grid;
+grid-template-columns: 60% 40%;
+grid-column-gap: 2em;
+border: 2px;
+border-style: dotted;
+
+
+
+}
+#main{
+    width: auto;
+    /* background-color: bisque; */
+    border: 2px;
+    border-style: dotted;
+}
+#aside{
+
+    /* background-color: darkslateblue; */
+    width: 590px;
+    border: 2px;
+    border-style: dotted;
+}
+
+
+#sponsors{
+/* background-color: blueviolet; */
+    height: 200px;
+  width: auto;
+   
+display: grid;
+grid-template-columns: 10% 10% 10% 10% 10% ;
+grid-column-gap: 10rem;
+
+border: 2px;
+border-style: dotted;
+}
+
+#box1{
+    margin: 30px;
+    height: 100px ;
+    width: 100px;
+    border: 10px;
+    border-color: black;
+
+    background-color: blue;
+
+
+}
+#box2{
+    margin: 30px;
+    height: 100px ;
+    width: 100px;
+    border: 10px;
+    border-color: black;
+
+    background-color: blue;
+
+
+}
+#box3{
+    margin: 30px;
+    height: 100px ;
+    width: 100px;
+    border: 10px;
+    border-color: black;
+
+    background-color: blue;
+
+
+}
+#box4{
+    margin: 30px;
+    height: 100px ;
+    width: 100px;
+    
+    background-color: blue;
+
+
+}
+#box5{
+    margin: 30px;
+    height: 100px ;
+    width: 100px;
+
+    background-color: blue;
+
+
+}
+
+#footer{
+
+    /* background-color:green; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+text-align: center;
+border: 2px;
+border-style: dotted;
+}
